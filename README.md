@@ -12,21 +12,21 @@ My focus is creating **clean, responsive and user-friendly interfaces**.
 ## 🚀 Tech Stack
 
 ### Frontend
-HTML • CSS • JavaScript • TypeScript  
-React • Next.js • Tailwind CSS
+- HTML - CSS - JavaScript - TypeScript  
+- React - Next.js - Tailwind CSS
 
 ### Backend
-Python
+- Python
 
 ### Database
-SQL Server
-Node.js
+- SQL Server
+- Node.js
 
 ### Machine Learning / AI
-PyTorch • Scikit-learn
+- PyTorch - Scikit-learn
 
 ### Tools
-Git • GitHub
+- Git - GitHub
 
 ---
 
@@ -38,16 +38,16 @@ React • TypeScript • Tailwind CSS
 🔗 Code: https://github.com/your-repo
 
 ### 📚 Online Book Store (Next.js)
-Next.js • TypeScript • Tailwind CSS  
+- Next.js - TypeScript - Tailwind CSS  
 🔗 Live Demo: LINK  
 🔗 Code: https://github.com/your-repo
 
 ### 🌦 Weather App
-JavaScript • Weather API  
+- JavaScript - Weather API  
 🔗 Code: https://github.com/your-repo
 
 ### 📖 Book Management System
-JavaScript • SQL Server  
+- JavaScript - SQL Server  
 🔗 Code: https://github.com/your-repo
 
 ---
