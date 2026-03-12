@@ -33,26 +33,31 @@ The application demonstrates modern React practices, including component archite
 
 ## 📂 Project Structure
 
-```src
-    ├── component
-    │   ├── Book-list-manager
-    │   ├── eventlist
-    │   ├── modalBox
-    │   ├── modal-details
-    │   ├── handle-show
-    │   └── title
-    │
-    ├── App.jsx
-    └── main.jsx
+```
+src
+├── component
+│   ├── Book-list-manager
+│   ├── eventlist
+│   ├── modalBox
+│   ├── modal-details
+│   ├── handle-show
+│   └── title
+│
+├── App.jsx
+└── main.jsx
+
 ```
 ...
 
 ## ⚙️ Installation
 
 Clone the repository:
-```bash
-git clone 🔗  https://github.com/your-username/book-list-manager.git
-```
+
+git clone
+
+🔗 `https://github.com/your-username/book-list-manager.git`
+
+
 Navigate into the project:
 
 cd book-list-manager
@@ -68,13 +73,17 @@ Running the Project
 ### Start the JSON server (local API):
 
 ```bash
+
 npx json-server --watch db.json --port 3000
+
 ```
 
 Start the React application:
 
 ```bash
+
 npm run dev
+
 ```
 ...
 
@@ -85,30 +94,54 @@ API endpoint used by the app:
 ## Key React Concepts Demonstrated
 
 This project demonstrates several important React concepts:
+
 State Management
+
 Using useState to manage UI state.
+
 Side Effects
+
 Using useEffect to fetch API data.
+
 Async / Await
+
 Handling asynchronous API requests cleanly.
+
 Error Handling
+
 Using try / catch for API operations.
+
 Conditional Rendering
+
 Displaying loading indicators, messages, and data conditionally.
+
 Component Communication
+
 Using:
+
 - `forwardRef`
 - `useImperativeHandle`
+
 to trigger UI updates across components.
+
 Example Flow
+
 Application loads.
+
 Books are fetched from the API.
+
 Loading spinner appears during the request.
+
 Users can:
+
 Add a book via modal form
+
 Delete books from the list
+
 After adding a book:
+
 A success message appears
+
 The message resets automatically after a few seconds.
 
 ...
@@ -116,8 +149,11 @@ The message resets automatically after a few seconds.
 ### UI Behavior
 
 Loading spinner during API fetch
+
 Empty list message when no books exist
+
 Success notification after adding a book
+
 Responsive layout for smaller screens
 
 ...
@@ -125,10 +161,15 @@ Responsive layout for smaller screens
 ### Future Improvements
 
 Possible improvements for the project:
+
 Edit book functionality
+
 Persistent notifications system
+
 Form validation
+
 Backend integration (Node / Express)
+
 Global state management (Context API or Redux)
 
 ... 
