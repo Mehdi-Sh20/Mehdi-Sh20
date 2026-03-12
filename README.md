@@ -59,7 +59,7 @@ git clone
 https://github.com/your-username/book-list-manager.git
 
 ```
-
+---
 
 Navigate into the project:
 
@@ -85,8 +85,8 @@ Start the React application:
 
 ```bash
 
+```bash
 npm run dev
-
 ```
 ...
 
