@@ -52,25 +52,19 @@ src
 Clone the repository:
 
 ```bash
-
 git clone https://github.com/your-username/book-list-manager.git
-
 ```
 
 Navigate into the project:
 
 ```bash
-
 cd books-list-manager
-
 ```
 
 Install dependencies:
 
 ```bash
-
 npm install
-
 ```
 
 Running the Project
@@ -80,17 +74,13 @@ Running the Project
 ### Start the JSON server (local API):
 
 ```bash
-
 npx json-server --watch db.json --port 3000
-
 ```
 
 Start the React application:
 
 ```bash
-
 npm run dev
-
 ```
 
 ### 🌐 API endpoint:
@@ -181,8 +171,6 @@ Global state management (Context API or Redux)
 ### Author
 
 Developed as a React learning project to practice component architecture, asynchronous operations, and UI state management.
-
-
 
 ### License
 
