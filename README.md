@@ -1,4 +1,3 @@
-
 # 📚 Book List Manager (React)
 
 A simple React application that allows users to manage a list of books.
@@ -44,7 +43,6 @@ src
 │
 ├── App.jsx
 └── main.jsx
-
 ```
 
 ## ⚙️ Installation
@@ -87,7 +85,6 @@ npm run dev
 
 ```
 http://localhost:3000/books
-
 ```
 
 ## 🧠 Key React Concepts Demonstrated
@@ -96,7 +93,7 @@ This project demonstrates several important React concepts:
 
 - **State Management**
 
-  Using useState to manage UI state.
+Using useState to manage UI state.
 
 Side Effects
 
@@ -141,7 +138,6 @@ A success message appears
 
 The message resets automatically after a few seconds.
 
-
 ### 🎨 UI Behavior
 
 Loading spinner during API fetch
@@ -151,7 +147,6 @@ Empty list message when no books exist
 Success notification after adding a book
 
 Responsive layout for smaller screens
-
 
 ### Future Improvements
 
@@ -167,7 +162,6 @@ Backend integration (Node / Express)
 
 Global state management (Context API or Redux)
 
-
 ### Author
 
 Developed as a React learning project to practice component architecture, asynchronous operations, and UI state management.
@@ -181,8 +175,6 @@ This project is open-source and available under the MIT License.
 ### 📸 Screenshots
 
 ![Book List Manager Screenshot](image/book-list.jpg)
-
-
 
 
 
