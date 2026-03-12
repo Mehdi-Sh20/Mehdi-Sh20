@@ -10,78 +10,49 @@ The application demonstrates modern React practices, including component archite
 
 ## 🚀 Features
 
-- Display a list of books from an API
-
-- Add new books via a modal form
-
+- Fetch and display books from an API
+- Add new books through a modal form
 - Delete books from the list
-
+- Toggle visibility of the book list (Show / Hide)
 - Loading indicator while fetching data
-
 - Error handling for API requests
-
-- Dynamic success message when a book is added and delete
-
+- Dynamic success message when a book is added or deleted
 - Responsive UI with CSS modules
-
 - Automatic UI updates using React state
 
---- 
+...
 
 ## 🛠 Technologies Used
 
-React
+- React
+- JavaScript (ES6+)
+- CSS Modules
+- Fetch API
+- JSON Server (local API)
+...
 
-JavaScript (ES6+)
+## 📂 Project Structure
 
-CSS Modules
-
-Fetch API
-
-JSON Server (local API)
-
---- 
-
-📂 Project Structure
-
+```src
+    ├── component
+    │   ├── Book-list-manager
+    │   ├── eventlist
+    │   ├── modalBox
+    │   ├── modal-details
+    │   ├── handle-show
+    │   └── title
+    │
+    ├── App.jsx
+    └── main.jsx
 ```
-
-src/
-│
-├── component/
-│   │
-│   ├── Book-list-manager/
-│   │     └── BookListManager.jsx
-│   │
-│   ├── eventlist/
-│   │     └── EventListMap.jsx
-│   │
-│   ├── modalBox/
-│   │     └── Modal.jsx
-│   │
-│   ├── newModal/
-│   │     └── NewModalForm.jsx
-│   │
-│   ├── handle-show/
-│   │     └── HandleBookListShow.jsx
-│   │
-│   └── title/
-│         ├── Title.jsx
-│         └── header-title/
-│               └── HeaderTitle.jsx
-│
-├── App.jsx
-└── main.jsx
-
-```
---- 
+...
 
 ## ⚙️ Installation
 
 Clone the repository:
-
+```bash
 git clone 🔗  https://github.com/your-username/book-list-manager.git
-
+```
 Navigate into the project:
 
 cd book-list-manager
@@ -98,147 +69,85 @@ Running the Project
 
 ```bash
 npx json-server --watch db.json --port 3000
-
 ```
 
 Start the React application:
 
 ```bash
 npm run dev
-
 ```
----
+...
 
 API endpoint used by the app:
 
-http://localhost:3000/books
+`http://localhost:3000/books`
 
-Key React Concepts Demonstrated
+## Key React Concepts Demonstrated
 
 This project demonstrates several important React concepts:
-
 State Management
-
 Using useState to manage UI state.
-
 Side Effects
-
 Using useEffect to fetch API data.
-
 Async / Await
-
 Handling asynchronous API requests cleanly.
-
 Error Handling
-
 Using try / catch for API operations.
-
 Conditional Rendering
-
 Displaying loading indicators, messages, and data conditionally.
-
 Component Communication
-
 Using:
-
-forwardRef
-useImperativeHandle
-
+- `forwardRef`
+- `useImperativeHandle`
 to trigger UI updates across components.
-
 Example Flow
-
 Application loads.
-
 Books are fetched from the API.
-
 Loading spinner appears during the request.
-
 Users can:
-
 Add a book via modal form
-
 Delete books from the list
-
 After adding a book:
-
 A success message appears
-
 The message resets automatically after a few seconds.
 
----
+...
 
 ### UI Behavior
 
 Loading spinner during API fetch
-
 Empty list message when no books exist
-
 Success notification after adding a book
-
 Responsive layout for smaller screens
 
----
+...
 
 ### Future Improvements
 
 Possible improvements for the project:
-
 Edit book functionality
-
 Persistent notifications system
-
 Form validation
-
 Backend integration (Node / Express)
-
 Global state management (Context API or Redux)
 
---- 
+... 
 
 ### Author
 
 Developed as a React learning project to practice component architecture, asynchronous operations, and UI state management.
 
----
+...
 
 ### License
 
 This project is open-source and available under the MIT License.
 
----
+...
 
 ### 📸 Screenshots
 
-![Weather App Screenshot](image/book-list.jpg)
-
-
----
-
-
-✅ This README is portfolio-ready for GitHub.
-
-If you want, I can also help you add 3 things that make recruiters notice your project much faster, such as:
-
-screenshots section 📸
-
-live demo section 🌐
-
-animated GIF preview 🎥
-
-These make your GitHub project look much more professional.
-
-✅ Best portfolio setup for your project
-
-Frontend:
-
-Vercel
-
-Backend:
-
-Render
-
-This is a very common real developer stack.
+![Book List Manager Screenshot](image/book-list.jpg)
 
 
 
