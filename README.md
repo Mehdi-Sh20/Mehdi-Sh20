@@ -28,7 +28,7 @@ The application demonstrates modern React practices, including component archite
 - CSS Modules
 - Fetch API
 - JSON Server (local API)
-...
+
 
 ## 📂 Project Structure
 
@@ -151,7 +151,6 @@ A success message appears
 
 The message resets automatically after a few seconds.
 
-...
 
 ### 🎨 UI Behavior
 
@@ -163,7 +162,6 @@ Success notification after adding a book
 
 Responsive layout for smaller screens
 
-...
 
 ### Future Improvements
 
@@ -179,13 +177,12 @@ Backend integration (Node / Express)
 
 Global state management (Context API or Redux)
 
-... 
 
 ### Author
 
 Developed as a React learning project to practice component architecture, asynchronous operations, and UI state management.
 
-...
+
 
 ### License
 
