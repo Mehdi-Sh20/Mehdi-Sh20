@@ -98,8 +98,8 @@ GitHub: https://github.com/yourusername
 
 ### 📸 Screenshots
 
-![Weather App Screenshot](app-images/weather.jpg)
-![Weather App Screenshot](app-images/weather1.jpg)
+![Weather App Screenshot](images/weather1.jpg)
+![Weather App Screenshot](images/weather2.jpg)
 
 
 
