@@ -144,19 +144,19 @@ To trigger updates across components (e.g., success notifications).
 ---
 
 ## 🎨 UI Behavior
-- 🔹 Loading spinner during API requests
-- 🔹 Empty state message when no books exist
-- 🔹 Feedback notifications after actions
-- 🔹 Fully responsive design for mobile devices
+🔹 Loading spinner during API requests
+🔹 Empty state message when no books exist
+🔹 Feedback notifications after actions
+🔹 Fully responsive design for mobile devices
 
 ---
 
 ## 🚧 Future Improvements
 
-- 🔹 Persistent notification system (toast)
-- 🔹 Advanced form validation
-- 🔹 Global state management (React Context / Redux)
-- 🔹 Search & filter books
+🔹 Persistent notification system (toast)
+🔹 Advanced form validation
+🔹 Global state management (React Context / Redux)
+🔹 Search & filter books
 
 --- 
 
