@@ -11,8 +11,8 @@ Icon?
 # VS Code files
 # ==========================
 .vscode/
-.history/            # VS Code local history
-*.code-workspace     # VS Code workspace files
+.history/
+*.code-workspace
 
 # ==========================
 # Node / Web project
@@ -26,6 +26,7 @@ build/
 # ==========================
 .images/
 .index.html
+.env
 
 # ==========================
 # Logs
@@ -40,10 +41,17 @@ build/
 *.swp
 
 
-/.history
-/.images
-/.index.html
 
 
+.history/
+.images/
+.index.html
+node_modules/
+.env
 
+✅ .history/ → directory
+✅ .images/ → directory
+✅ .index.html → file
+✅ node_modules/ → directory
+✅ .env → file
 
