@@ -1,3 +1,3 @@
 
-### Book time
+### Book 1 hour
 
