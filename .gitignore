@@ -1,2 +1,49 @@
+# ==========================
+# System & OS files
+# ==========================
+Thumbs.db
+Desktop.ini
+.DS_Store
+ehthumbs.db
+Icon?
+
+# ==========================
+# VS Code files
+# ==========================
+.vscode/
+.history/            # VS Code local history
+*.code-workspace     # VS Code workspace files
+
+# ==========================
+# Node / Web project
+# ==========================
+node_modules/
+dist/
+build/
+
+# ==========================
+# Hidden project files
+# ==========================
+.images/
+.index.html
+
+# ==========================
+# Logs
+# ==========================
+*.log
+
+# ==========================
+# Temporary / backup files
+# ==========================
+*.tmp
+*.bak
+*.swp
+
 
 /.history
+/.images
+/.index.html
+
+
+
+
